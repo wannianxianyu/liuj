@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mail</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<link href='http://fonts.googleapis.com/css?family=Cardo:400,400italic,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header_top">
+		<div class="header">
+			<div class="wthree_menu">
+				<nav>
+				  <ul>
+					<li>
+						<a href="index.html"><i class="glyphicon glyphicon-home" aria-hidden="true"></i><span>Home</span></a>
+					</li>
+					<li>
+						<a href="about.html"><i class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></i><span>About</span></a>
+					</li>
+					<li>
+						<a href="short-codes.html"><i class="glyphicon glyphicon-text-size" aria-hidden="true"></i><span>Short Codes</span></a>
+					</li>
+					<li>
+						<a href="gallery.html"><i class="glyphicon glyphicon-picture" aria-hidden="true"></i><span>Gallery</span></a>
+					</li>
+					<li class="active">
+						<a href="mail.html"><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><span>Mail Us</span></a>
+					</li>
+				  </ul>
+				</nav>
+				<div class="menu-icon"><span></span></div>
+			</div>
+			<div class="agile_logo">
+				<h1><a href="index.html"><span>C</span><i>Furnish</i></a></h1>
+			</div>
+			<div class="w3ls_search">
+				<form action="#" method="post">
+					<input type="text" name="Name" placeholder="Type to search..." required="">
+					<input type="submit" value=" ">
+				</form>
+			</div>
+			<div class="agileits_mail_phone">
+				<ul>
+					<li><a href="mailto:info@example.com">info@example.com</a><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></li>
+					<li>(+000) 1234 423 23<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		<script>
+			(function($){
+			  $(".menu-icon").on("click", function(){
+					$(this).toggleClass("open");
+					$(".header").toggleClass("nav-open");
+					$("nav ul li").toggleClass("animate");
+			  });
+			  
+			})(jQuery);
+		</script>
+	</div>
+<!-- //header -->
+<!-- banner1 -->
+	<div class="banner1">
+		<div class="container">
+			<ul class="w3_short">
+				<li><a href="index.html">Home</a><i>/</i></li>
+				<li>Mail</li>
+			</ul>
+		</div>
+	</div>
+<!-- //banner1 -->
+<!-- mail -->
+	<div class="mail">
+		<div class="container">
+			<h4 class="w3_sub_head">Classy Furnish</h4>
+			<h3 class="w3_head">Mail Us</h3>
+			<p class="nunc">Aliquam erat volutpat. Vivamus malesuada pellentesque nunc id condimentum.</p>
+			<div class="agileinfo_mail_grids">
+				<div class="col-md-8 agileinfo_mail_grid_right">
+					<form action="#" method="post">
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input type="email" name="Email" placeholder="Email" required="">
+						</div>
+						<div class="col-md-6 wthree_contact_left_grid">
+							<input type="text" name="Telephone" placeholder="Telephone" required="">
+							<input type="text" name="Subject" placeholder="Subject" required="">
+						</div>
+						<div class="clearfix"> </div>
+						<textarea name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+						<input type="submit" value="Submit">
+						<input type="reset" value="Clear">
+					</form>
+				</div>
+				<div class="col-md-4 agileinfo_mail_grid_left">
+					<ul>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i><span>address</span> : 868 1st Avenue NYC.</li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><span>email </span> :<a href="mailto:info@example.com">info@example.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i><span>call to us :</span> :(+123) 233 2362 826</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50996.31320435244!2d-122.06676498187694!3d36.97949802442312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808e441b7c36d549%3A0x52ca104b2ad7f985!2sSanta+Cruz%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1469096018666" style="border:0"></iframe>
+	</div>
+<!-- //mail -->
+<!-- newsletter -->
+	<div class="newsletter">
+		<div class="container">
+			<h4 class="w3_sub_head">Subscribe to our</h4>
+			<h3 class="w3_head w3_head1">Newsletter</h3>
+			<p class="nunc nunc1">Aliquam erat volutpat. Vivamus malesuada pellentesque nunc id condimentum.</p>
+			<form action="#" method="post">
+				<input type="email" name="email" placeholder="Your email..." required="">
+				<input type="submit" value="Subscribe Now">
+			</form>
+		</div>
+	</div>
+<!-- //newsletter -->
+<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="w3ls_footer_grid">
+				<div class="col-md-6 w3ls_footer_grid_left">
+					<div class="w3ls_footer_grid_left1">
+						<h2>Follow Us</h2>
+						<div class="w3ls_footer_grid_left1_pos">
+							<ul>
+								<li><a href="#" class="facebook">Facebook</a></li>
+								<li><a href="#" class="twitter">Twitter</a></li>
+								<li><a href="#" class="google">Google+</a></li>
+								<li><a href="#" class="instagram">Instagram</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 w3ls_footer_grid_right">
+					<h2><a href="index.html"><span>C</span> Furnish</a></h2>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="col-md-6 w3ls_footer_grid1_left">
+				<p>Copyright &copy; 2016.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+			</div>
+			<div class="col-md-6 w3ls_footer_grid1_right">
+				<ul>
+					<li>
+						<a href="about.html">About</a>
+					</li>
+					<li>
+						<a href="short-codes.html">Short Codes</a>
+					</li>
+					<li>
+						<a href="gallery.html">Gallery</a>
+					</li>
+					<li>
+						<a href="mail.html">Mail Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>
